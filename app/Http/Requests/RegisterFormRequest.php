@@ -16,7 +16,7 @@ class RegisterFormRequest extends FormRequest
         return true; //[ *1.変更：default=false ]
     }
 
-
+/*テスト*/
     public function getValidatorInstance()
     {
       $old_year = $this->input('old_year');
